@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/styles.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Tetris from "./components/tetris";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+      <Tetris boardWidth="14" boardHeight="20" />
   </React.StrictMode>,
   document.getElementById('root')
 );
